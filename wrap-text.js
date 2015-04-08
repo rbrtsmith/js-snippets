@@ -35,9 +35,6 @@ var wrapText = function wrapText(elements) {
       finalString = arr.join('');
       el.innerHTML = finalString;
   });
-  
-  
-  
+
 };
 
-wrapText('.js-text');
