@@ -13,4 +13,4 @@ A very crude example of closure within JavaScript, the concole logs are the to s
 Wraps all letters and words in the passed elements with spans that have corresponding classnames.
 This is useful if you wish to manipulate each individual character or word, like with an animation.
 Takes any valid DOM selector:
-wrapText('.js-text');
+`wrapText('.js-text');`
