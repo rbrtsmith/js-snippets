@@ -1,6 +1,9 @@
 # js-snippets
 Short JavaScript snippets
 
+##Average
+A utility function that takes an array of numbers and returns the average value.
+
 ##Flatten
 A utility function that flattens an array with nested arrays into a single array.
 Example:
