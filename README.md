@@ -4,8 +4,10 @@ Short JavaScript snippets
 ##Flatten
 A utility function that flattens an array with nested arrays into a single array.
 Example:
-    var names = [["Robert", "Smith"], ["John", "Paul"], ["Jack", "Jones"]];
-    console.log(flatten(names)); // ["Robert", "Smith", "John", "Paul", "Jack", "Jones"]
+```
+var names = [["Robert", "Smith"], ["John", "Paul"], ["Jack", "Jones"]];
+console.log(flatten(names)); // ["Robert", "Smith", "John", "Paul", "Jack", "Jones"]
+```
 
 ##Is Array
 A short function that allows you to type check an array.  JavaScripts TypeOf method returns object which is incorrect.
