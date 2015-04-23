@@ -17,7 +17,7 @@ A utility function that allows you to type check an array.  JavaScripts TypeOf m
 This returns true if the argument passed is an array, and false for anything else.
 
 ##IsPrime
-Utility function that takes a number and returns true if it is a prime.
+Utility function that takes an integer and returns true if it is a prime.
 
 ##Simple closure
 A very crude example of closure within JavaScript, the concole logs are the to show that the inner function retains the outer functions scope even though it is executing outside of that scope.
