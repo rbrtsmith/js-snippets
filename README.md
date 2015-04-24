@@ -19,6 +19,9 @@ console.log(flatten(names)); // ["Robert", "Smith", "John", "Paul", "Jack", "Jon
 A utility function that allows you to type check an array.  JavaScripts TypeOf method returns object which is incorrect.
 This returns true if the argument passed is an array, and false for anything else.
 
+##IsLetter
+A utility function that takes a single charcter string and returns true if it is a letter, false for any other value.
+
 ##IsPrime
 Utility function that takes an integer and returns true if it is a prime.
 
