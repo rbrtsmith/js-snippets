@@ -5,7 +5,7 @@ Short JavaScript snippets
 A utility function that takes an array of numbers and returns the average value.
 
 ##countOccurencies
-A untility function that takes an array and a value.  Returns an integer for the number of times the value occurs in the array.
+A untility function that takes an array and a value.  Returns an integer value equal to the number of times the value occurs in the array.
 
 ##Flatten
 A utility function that flattens an array with nested arrays into a single array.
