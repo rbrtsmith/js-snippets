@@ -29,7 +29,10 @@ A utility function that takes a single charcter string and returns true if it is
 Utility function that takes an integer and returns true if it is a prime.
 
 ##Maximum
-Takes an array of numbers and returns the highest value
+Takes an array of numbers and returns the highest value.
+
+##Minimum
+Takes an array of numbers and returns the lowest value.
 
 ##Simple closure
 A very crude example of closure within JavaScript, the concole logs are the to show that the inner function retains the outer functions scope even though it is executing outside of that scope.
