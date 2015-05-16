@@ -34,6 +34,9 @@ Takes an array of numbers and returns the highest value.
 ##Minimum
 Takes an array of numbers and returns the lowest value.
 
+##ReverseString
+Takes a string and returns the string with the characters in reverse order. 
+
 ##Simple closure
 A very crude example of closure within JavaScript, the concole logs are the to show that the inner function retains the outer functions scope even though it is executing outside of that scope.
 
