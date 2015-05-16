@@ -41,7 +41,7 @@ Takes a string and returns the string with the characters in reverse order.
 A very crude example of closure within JavaScript, the concole logs are the to show that the inner function retains the outer functions scope even though it is executing outside of that scope.
 
 ##Wrap text
-Wraps all letters and words in the passed elements with spans that have corresponding classnames.
-This is useful if you wish to manipulate each individual character or word, like with an animation.
+Wraps all individual characters and words within the passed elements with spans that have corresponding classnames.
+This is useful if you wish to manipulate each individual character or word, with an animation.
 Takes any valid DOM selector:
 `wrapText('.js-text');`
