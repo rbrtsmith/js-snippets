@@ -1,0 +1,5 @@
+var reverseStr = function(str) {
+  return [].map.call(str, function(val) {
+    return val;
+  }).reverse().join('');
+};
