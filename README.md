@@ -28,6 +28,9 @@ A utility function that takes a single charcter string and returns true if it is
 ##IsPrime
 Utility function that takes an integer and returns true if it is a prime.
 
+##LoopOverObj
+Takes two arguments, an object and a callback function.  Loops over each own property on the passed object and calls the callback function with each iteration passing in the objects key.
+
 ##Maximum
 Takes an array of numbers and returns the highest value.
 
