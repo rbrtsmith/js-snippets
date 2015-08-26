@@ -3,3 +3,10 @@ var reverseStr = function(str) {
     .reverse()
     .join('');
 };
+
+
+//ES6
+let reverseStr = (str) => str
+  .split('')
+  .reverse()
+  .join('');
