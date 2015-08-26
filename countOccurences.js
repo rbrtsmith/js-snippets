@@ -3,3 +3,10 @@ var countOccurences = function(arr, val) {
     return item === val; 
   }).length;
 };
+
+
+// ES6
+
+const countOccurences = (arr, val) =>
+  arr.filter((item) => 
+    item === val).length;
