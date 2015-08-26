@@ -4,3 +4,9 @@ var average = function(arr) {
   }
   return arr.reduce(plus) / arr.length;
 };
+
+
+// ES6
+let average = (arr) => 
+  arr.reduce((a,b) => 
+    a + b) / arr.length;
