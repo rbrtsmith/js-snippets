@@ -5,3 +5,8 @@ var reverseStr = function(str) {
 };
 
 
+//ES6
+let reverseStr = (str) => str
+  .split('')
+  .reverse()
+  .join('');
