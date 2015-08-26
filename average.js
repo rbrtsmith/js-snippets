@@ -6,6 +6,6 @@ var average = function(arr) {
 
 
 // ES6
-let average = (arr) => 
+const average = (arr) => 
   arr.reduce((a,b) => 
     a + b) / arr.length;
