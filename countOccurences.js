@@ -1,3 +1,4 @@
+// ES5
 var countOccurences = function(arr, val) {
   return arr.filter(function(item) {
     return item === val; 
@@ -6,7 +7,6 @@ var countOccurences = function(arr, val) {
 
 
 // ES6
-
 const countOccurences = (arr, val) =>
   arr.filter((item) => 
     item === val).length;
