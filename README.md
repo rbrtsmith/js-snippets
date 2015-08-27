@@ -1,5 +1,5 @@
 # js-snippets
-Short JavaScript snippets
+Short JavaScript snippets written in both ES5 and ES6
 
 ##Average
 A utility function that takes an array of numbers and returns the average value.
