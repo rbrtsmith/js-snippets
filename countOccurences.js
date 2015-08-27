@@ -1,5 +1,5 @@
 // ES5
-var countOccurences = function(arr, val) {
+var countOccurences = function countOccurences(arr, val) {
   return arr.filter(function(item) {
     return item === val; 
   }).length;
