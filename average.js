@@ -1,5 +1,5 @@
 // ES5
-var average = function(arr) {
+var average = function average(arr) {
   return arr.reduce(function(a,b) {
     return a + b;
   }) / arr.length;
