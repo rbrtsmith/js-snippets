@@ -1,5 +1,5 @@
 // ES5
-var flatten = function(arr) {
+var flatten = function flatten(arr) {
   return arr.reduce(function(pv, cv){
     return pv.concat(cv);
   });
