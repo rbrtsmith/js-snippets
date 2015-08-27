@@ -1,3 +1,4 @@
+// ES5
 var average = function(arr) {
   return arr.reduce(function(a,b) {
     return a + b;
