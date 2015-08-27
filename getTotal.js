@@ -1,5 +1,5 @@
 // ES5
-var getTotal = function(arr) {
+var getTotal = function getTotal(arr) {
   return arr.reduce(function(pv,cv){
     return pv + cv;
   });
