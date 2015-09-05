@@ -8,11 +8,11 @@ A utility function that takes an array of numbers and returns the average value.
 A untility function that takes an array and a value.  Returns an integer value equal to the number of times the value occurs in the array.
 
 ##Flatten
-A utility function that flattens an array by a depth of 1.
+Recursevly flatten an array of nested arrays.
 Example:
 ```
-var names = [["Robert", "Smith"], ["John", "Paul"], ["Jack", "Jones"]];
-console.log(flatten(names)); // ["Robert", "Smith", "John", "Paul", "Jack", "Jones"]
+var names = [["Robert", "Smith"], ["John", "Paul"], ["Jack", [1,2,3], "Jones"]];
+flatten(names); // ["Robert", "Smith", "John", "Paul", "Jack", 1, 2, 3, "Jones"]
 ```
 
 ##GetTotal
