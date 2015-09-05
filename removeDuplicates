@@ -1,0 +1,23 @@
+//ES5
+var removeDuplicates = function removeDuplicates(arr) {
+  var result = [];
+  arr.forEach(function (val) {
+    if (result.indexOf(val) !== 1) {
+      result.push(val);
+    }
+  });
+  return result;
+};
+
+
+
+//ES6
+const removeDuplicates = arr => {
+  let result = [];
+  arr.forEach(val => {
+    if (result.indexOf(val) !== 1) {
+      result.push(val);
+    }
+  });
+  return result;
+};
