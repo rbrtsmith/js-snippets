@@ -37,6 +37,10 @@ Takes an array of numbers and returns the highest value.
 ##Minimum
 Takes an array of numbers and returns the lowest value.
 
+##Merge
+Function that tkes any number of objects and returns a new object containing all the properties of the passed objects.
+Duplicate properties will overwrite one another.
+
 ##RemoveDuplicates
 Takes an array and returns a new array of unique values &mdash; removes duplicates.
 
