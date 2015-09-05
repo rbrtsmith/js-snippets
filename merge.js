@@ -1,5 +1,5 @@
 //ES5
-var merge = function mergeObjects() {
+var merge = function merge() {
   var args = [].slice.call(arguments);
   return args.reduce(function(target, obj){
     Object.keys(obj).forEach(function(key) {
