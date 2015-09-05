@@ -38,7 +38,7 @@ Takes an array of numbers and returns the highest value.
 Takes an array of numbers and returns the lowest value.
 
 ##Merge
-Function that tkes any number of objects and returns a new object containing all the properties of the passed objects.
+Function that takes any number of objects and returns a new object containing all the properties of the passed objects.
 Duplicate properties will overwrite one another.
 
 ##RemoveDuplicates
