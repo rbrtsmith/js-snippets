@@ -37,6 +37,9 @@ Takes an array of numbers and returns the highest value.
 ##Minimum
 Takes an array of numbers and returns the lowest value.
 
+##RemoveDuplicates
+Takes an array and returns a new array of unique values &mdash; removes duplicates.
+
 ##ReverseString
 Takes a string and returns the string with the characters in reverse order. 
 
