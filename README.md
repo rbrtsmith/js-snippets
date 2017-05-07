@@ -1,13 +1,13 @@
 # js-snippets
 Short JavaScript snippets written in both ES5 and ES6
 
-##Average
+## average
 A utility function that takes an array of numbers and returns the average value.
 
-##countOccurencies
+## countOccurencies
 A untility function that takes an array and a value.  Returns an integer value equal to the number of times the value occurs in the array.
 
-##Flatten
+## flatten
 Recursevly flatten an array of nested arrays.
 Example:
 ```
@@ -15,42 +15,42 @@ var names = [["Robert", "Smith"], ["John", "Paul"], ["Jack", [1,2,3], "Jones"]];
 flatten(names); // ["Robert", "Smith", "John", "Paul", "Jack", 1, 2, 3, "Jones"]
 ```
 
-##GetTotal
+## getTotal
 Utility function, accepts an array of numbers and returns the sum.
 
-##IsArray
+## isArray
 A utility function that allows you to type check an array.  JavaScripts TypeOf method returns object which is incorrect.
 This returns true if the argument passed is an array, and false for anything else.
 
-##IsLetter
+## isLetter
 A utility function that takes a single charcter string and returns true if it is a letter, false for any other value.
 
-##IsPrime
+## isPrime
 Utility function that takes an integer and returns true if it is a prime.
 
-##LoopOverObj
+## loopOverObj
 Takes two arguments, an object and a callback function.  Loops over each own property on the passed object and calls the callback function with each iteration passing in the objects key.
 
-##Maximum
+## maximum
 Takes an array of numbers and returns the highest value.
 
-##Minimum
+## minimum
 Takes an array of numbers and returns the lowest value.
 
-##Merge
+## merge
 Function that takes any number of objects and returns a new object containing all the properties of the passed objects.
 Duplicate properties will overwrite one another.
 
-##RemoveDuplicates
+## removeDuplicates
 Takes an array and returns a new array of unique values &mdash; removes duplicates.
 
-##ReverseString
+## reverseString
 Takes a string and returns the string with the characters in reverse order. 
 
-##Simple closure
+## simple closure
 A very crude example of closure within JavaScript, the concole logs are the to show that the inner function retains the outer functions scope even though it is executing outside of that scope.
 
-##Wrap text
+## wrap text
 Wraps all individual characters and words within the passed elements with spans that have corresponding classnames.
 This is useful if you wish to manipulate each individual character or word, with an animation.
 Takes any valid DOM selector:
